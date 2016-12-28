@@ -20,4 +20,42 @@
 		list-style: none;
 		padding: 0 0 0 0;
 	}
+	.column {
+		border-radius: 2px;
+		border: 2px solid #ddd;
+	}
+	.colgray {
+		border-color: #ddd;
+	}
+	.colred {
+		border-color: #e0c5c5;
+	}
+	.colblue {
+		border-color: #ddeef3;
+		background-color: #f2f5fc;
+	}
+	.colgreen {
+		border-color: #d6e8d6;
+	}
+	.colyellow {
+		border-color: #f5f2cf;
+	}
+	.coltrans {
+		border-color: transparent;
+	}
+	.sectionHeader {
+		border-bottom: 2px solid #999;
+	}
+	.deleteButton {
+		display: none;
+	}
+	.mainList > li ul {
+		list-style-type: initial;
+	}
+	.mainList > li ul ul {
+		list-style-type: circle;
+	}
+	.mainList > li ul ul ul {
+		list-style-type: square;
+	}
 }

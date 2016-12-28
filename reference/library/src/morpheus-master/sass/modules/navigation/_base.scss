@@ -201,6 +201,12 @@ body.is-logged-out{
 		
 		color: $topNav-text-color;
 	}
+	a#loginLink1 {
+		border: 1px solid #fff;
+		border-radius: 3px;
+		padding: .3em;
+		text-decoration: none;
+	}
 	> * {
 		@media #{$phone}{
 			display: inline;
@@ -869,6 +875,7 @@ body.is-logged-out{
 		}
 		button{
 			@extend .button;
+			display:none;
 		}
 	}
 }

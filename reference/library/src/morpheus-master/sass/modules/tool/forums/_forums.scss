@@ -19,7 +19,7 @@
 
 .#{$namespace}sakai-forums{
 	.topicBlocLone{
-		@extend .bs-callout-warn;
+		@extend .bs-callout-primary;
 	}
 
 	.permissionRow{
@@ -87,6 +87,11 @@
 
 		.view-message-nav{
 			text-align:right;
+		}
+		.forumHeader {
+			@extend .bs-callout-primary;
+			margin: 1em 0 0;
+			padding: 8px;
 		}
 	}
 
