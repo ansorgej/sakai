@@ -44,7 +44,7 @@
 		border-color: transparent;
 	}
 	.sectionHeader {
-		border-bottom: 2px solid #999;
+		border-bottom: 2px solid #ddd;
 	}
 	.deleteButton {
 		display: none;
@@ -57,5 +57,11 @@
 	}
 	.mainList > li ul ul ul {
 		list-style-type: square;
+	}
+	.split ul ul {
+		column-count:initial;
+	}
+	.textbox table td {
+		padding: .3em;
 	}
 }
