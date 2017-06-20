@@ -213,6 +213,21 @@ body.is-logged-out{
 		@include display-flex( flex );
 		@include align-items( center );
 		@include justify-content( flex-end );
+		a#loginLink1 {
+			border: 1px solid #fff;
+			border-radius: 3px;
+			padding: .3em;
+			text-decoration: none;
+			text-align:center;
+		}
+		ul.#{$namespace}userNav__subnav a#loginLink1 {
+			text-align:left;
+			border:none;
+		}
+		a#loginLink2 {
+			padding-top:.4em;
+			text-align:center;
+		}
 	}
 
 	@media #{$phone}{
@@ -870,6 +885,7 @@ body.is-logged-out{
 		}
 		button{
 			@extend .button;
+			display:none;
 		}
 	}
 }

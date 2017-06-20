@@ -1,0 +1,24 @@
+.OHSUtemplate {
+	border: 1px solid #bbb;
+	width: 100%;
+	margin-top: 1em;
+}
+.OHSUtemplate > tbody > tr > td {
+	border: 1px solid #bbb;
+	margin-top: 1em;
+}
+.OHSUcredits {
+	font-size:70%;
+	color:#777;
+}
+/* Forums wrap problem on mobile */
+.hierItemBlock .otherActions {
+	white-space: normal;
+}
+#msgForum .messageMetadata, #msgForum .textPanel {
+	white-space: normal;
+}
+/* Display long page titles */
+#toolMenu ul li a span.Mrphs-toolsNav__menuitem--title, #subSites ul li a span.Mrphs-toolsNav__menuitem--title {
+	white-space:normal;
+}
